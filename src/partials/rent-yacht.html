@@ -1,0 +1,86 @@
+<section class="rent-section scroll-to" id="rent-yacht">
+    <div class="container change-direction">
+      <div class="form-container">
+        <h2 class="rent-bloc-title" data-aos="fade-up">Rent a yacht now</h2>
+        <form action="https://sanetchek.github.io/project_group_24/" data-aos="fade-right">
+          <div class="form-rent-bloc-wrap">
+            <input
+              class="input-rent-bloc"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Full Name"
+              pattern="\w{3,16}"
+              title="3 to 16 letters"
+              required
+            />
+            <input
+              class="input-rent-bloc"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Email"
+              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+              title="Example: info@mail.com"
+              required
+            />
+            <input
+              class="input-rent-bloc"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              placeholder="Phone number"
+              pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12"
+              title="Example: 067 555 6677"
+              required
+            />
+            <textarea
+              class="comment-rent-bloc"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="form-button-rent-bloc">Send</button>
+        </form>
+      </div>
+      <div class="picture-wrap">
+        <picture data-aos="fade-right">
+          <source
+            srcset="./img/rent/rent.jpg 1x, ./img/rent/rent@2x.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="
+              ./img/rent/rent-bloc-img-desk.jpg    1x,
+              ./img/rent/rent-bloc-img-desk-2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/rent/rent-bloc-img-tab.jpg    1x,
+              ./img/rent/rent-bloc-img-tab-2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/rent/rent-bloc-img-mob.jpg    1x,
+              ./img/rent/rent-bloc-img-mob-2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="rent-bloc-photo"
+            src="./img/rent/rent-bloc-img-mob.jpg"
+            alt="yacht"
+            width="768"
+            height="534"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </section>
