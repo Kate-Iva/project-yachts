@@ -1,3 +1,4 @@
+'use strict';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import $ from 'jquery';
@@ -59,6 +60,8 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  
 
   // Activate Menu BTN for each section
   scroll('#about', '#menu_about');

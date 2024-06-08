@@ -51,7 +51,9 @@
   background-color: transparent;
   display: block;
 }
-
+.burger-icon{
+  stroke: #1b414b;
+}
 .is-open {
   visibility: visible;
   opacity: 1;
@@ -157,7 +159,8 @@
 }
 
 .menu-social-icon:focus,
-.menu-social-icon:active {
+.menu-social-icon:active,
+.menu-social-icon:hover {
   fill: rgba(251, 251, 251, 0.8);
 }
 
@@ -229,13 +232,14 @@
       display: block;
   }
 
-  .menu-social-icon {
-      fill: #1B414B;
+  .menu-social-icon-tab {
+      fill: #062730;
   }
 
-  .menu-social-icon:focus,
-  .menu-social-icon:active {
-      fill: #062730;
+  .menu-social-icon-tab:focus,
+  .menu-social-icon-tab:active,
+  .menu-social-icon-tab:hover {
+      fill: #1b414b96;
   }
 }
 

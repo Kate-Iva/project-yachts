@@ -20,13 +20,13 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(251, 251, 251, 0.4);
-    margin-bottom: 40px;
 }
 
 .reviews-list {
     max-width: 340px;
     margin: 0 auto;
     width: 95%;
+    margin-top: 40px;
 }
 
 .reviews-list .slick-slide {
@@ -84,11 +84,11 @@
         line-height: 1.29;
         max-width: 571px;
         margin: 0 auto;
-        margin-bottom: 75px;
     }
 
     .reviews-list {
         max-width: 736px;
+        margin-top: 75px;
     }
 
     .reviews-item {
