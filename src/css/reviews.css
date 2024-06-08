@@ -1,0 +1,123 @@
+.reviews-section {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.reviews-section-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin-bottom: 25px;
+}
+
+.reviews-section-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.4);
+    margin-bottom: 40px;
+}
+
+.reviews-list {
+    max-width: 340px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.reviews-list .slick-slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-item {
+    border-radius: 24px;
+    padding: 32px 16px;
+    max-width: 335px;
+    background: #fbfbfb;
+}
+
+.reviews-img {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    border-radius: 50%;
+}
+
+.reviews-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #040306;
+    margin-bottom: 8px;
+}
+
+.reviews-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(4, 3, 6, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-section {
+        padding-top: 75px;
+        padding-bottom: 150px;
+    }
+
+    .reviews-section-title {
+        font-size: 48px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reviews-section-text {
+        font-size: 14px;
+        line-height: 1.29;
+        max-width: 571px;
+        margin: 0 auto;
+        margin-bottom: 75px;
+    }
+
+    .reviews-list {
+        max-width: 736px;
+    }
+
+    .reviews-item {
+        max-width: 336px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .reviews-list {
+        max-width: 1206px;
+    }
+
+    .reviews-item {
+        padding: 32px 28px;
+        max-width: 376px;
+    }
+
+    .reviews-section-title {
+        width: 854px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .reviews-list {
+        max-width: 1272px;
+    }
+
+    .reviews-item {
+        padding: 32px 36px;
+        max-width: 392px;
+    }
+}
