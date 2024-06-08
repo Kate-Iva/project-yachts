@@ -29,10 +29,13 @@
 
     <title>YachtJet</title>
     <script type="module" crossorigin src="/project-yachts/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-yachts/assets/index-10c40100.css">
+    <link rel="modulepreload" crossorigin href="/project-yachts/assets/vendor-7ca678db.js">
+    <link rel="stylesheet" href="/project-yachts/assets/vendor-b757f055.css">
+    <link rel="stylesheet" href="/project-yachts/assets/index-a26d339a.css">
   </head>
   <body>
-    <div class="preloader">
+    <!---->
+<div class="preloader">
     <div class="lds-grid">
       <div></div>
       <div></div>
@@ -90,14 +93,14 @@
                 target="_blank"
               >
                 <svg class="menu-social-icon" width="24" height="24">
-                  <use href="/img/sprite.svg#icon-instagram"></use>
+                  <use href="/project-yachts/assets/icons-38112d83.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="menu-social-item">
               <a href="https://www.youtube.com/c/GoIT" aria-label="Youtube" target="_blank">
                 <svg class="menu-social-icon" width="24" height="24">
-                  <use href="/img/sprite.svg#icon-youtube"></use>
+                  <use href="/project-yachts/assets/icons-38112d83.svg#icon-youtube"></use>
                 </svg>
               </a>
             </li>
@@ -108,7 +111,7 @@
                 target="_blank"
               >
                 <svg class="menu-social-icon" width="24" height="24">
-                  <use href="/img/sprite.svg#icon-facebook"></use>
+                  <use href="/project-yachts/assets/icons-38112d83.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
@@ -116,7 +119,7 @@
         </div>
         <button type="button" class="open-menu-but">
           <svg class="burger-icon" width="28" height="28">
-            <use href="/img/sprite.svg#icon-burger"></use>
+            <use href="/project-yachts/assets/icons-38112d83.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
@@ -130,7 +133,7 @@
           <a class="logo-header" href="/">yachtjet</a>
           <button type="button" class="close-menu-but">
             <svg class="close-icon" width="28" height="28">
-              <use href="/img/sprite.svg#icon-close"></use>
+              <use href="/project-yachts/assets/icons-38112d83.svg#icon-close"></use>
             </svg>
           </button>
         </div>
@@ -168,21 +171,21 @@
               aria-label="Instagram"
             >
               <svg class="menu-social-icon" width="24" height="24">
-                <use href="/img/sprite.svg#icon-instagram"></use>
+                <use href="/project-yachts/assets/icons-38112d83.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="menu-social-item">
             <a href="https://www.youtube.com/c/GoIT" aria-label="Youtube">
               <svg class="menu-social-icon" width="24" height="24">
-                <use href="/img/sprite.svg#icon-youtube"></use>
+                <use href="/project-yachts/assets/icons-38112d83.svg#icon-youtube"></use>
               </svg>
             </a>
           </li>
           <li class="menu-social-item">
             <a href="https://www.facebook.com/goITclub/" aria-label="Facebook">
               <svg class="menu-social-icon" width="24" height="24">
-                <use href="/img/sprite.svg#icon-facebook"></use>
+                <use href="/project-yachts/assets/icons-38112d83.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
@@ -232,32 +235,23 @@
         </div>
         <picture class="about-picture" data-aos="zoom-in">
           <source
-            srcset="./img/about/about.jpg 1x, ./img/about/about@2x.jpg 2x"
+            srcset="/project-yachts/assets/about-a86e2718.jpg 1x, /project-yachts/assets/about@2x-5405ddf1.jpg 2x"
             media="(min-width: 1440px)"
           />
           <source
-            srcset="
-              ./img/about/about-desktop.jpg    1x,
-              ./img/about/about-desktop@2x.jpg 2x
-            "
+            srcset="/project-yachts/assets/about-desktop-c35a6152.jpg 1x, /project-yachts/assets/about-desktop@2x-3d7bcc9f.jpg 2x"
             media="(min-width: 1280px)"
           />
           <source
-            srcset="
-              ./img/about/about-tablet.jpg    1x,
-              ./img/about/about-tablet@2x.jpg 2x
-            "
+            srcset="/project-yachts/assets/about-tablet-aa2670a8.jpg 1x, /project-yachts/assets/about-tablet@2x-87560bcb.jpg 2x"
             media="(min-width: 768px)"
           />
           <source
-            srcset="
-              ./img/about/about-mobile.jpg    1x,
-              ./img/about/about-mobile@2x.jpg 2x
-            "
+            srcset="/project-yachts/assets/about-mobile-691720ce.jpg 1x, /project-yachts/assets/about-mobile@2x-4ebbb1f6.jpg 2x"
             media="(min-width: 320px)"
           />
           <img
-            src="./img/about/about.jpg"
+            src="/project-yachts/assets/about-a86e2718.jpg"
             alt="about"
             class="about-img"
             width="1340"
@@ -270,188 +264,188 @@
   </section>
 
       <section id="yachts" class="our-yachts scroll-to">
-    <div class="yachts-container">
-      <h2 class="our-yachts-title" data-aos="fade-up">
-        Choose your dream yacht and sail away into the sunset
-      </h2>
-      <div class="our-yachts-list">
-        <div class="our-yachts_cards" data-aos="flip-left">
-          <picture>
-            <source
-              srcset="
-                ./img/our-yachts/arrow.jpg    1x,
-                ./img/our-yachts/arrow@2x.jpg 2x
-              "
-              media="(min-width: 1440px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_desk1.jpg    1x,
-                ./img/our-yachts/img-yaht_desk1-2x.jpg 2x
-              "
-              media="(min-width: 1280px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_tab2.jpg    1x,
-                ./img/our-yachts/img-yaht_tab2-2x.jpg 2x
-              "
-              media="(min-width: 768px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_mob.jpg   1x,
-                ./img/our-yachts/img-yaht_mob2x.jpg 2x
-              "
-              media="(max-width: 767px)" />
-            <img
-              src="./img/our-yachts/arrow.jpg"
-              alt="Yacht ARROW"
-              width="360"
-              height="268"
-              class="img-our-yachts"
-              loading="lazy"
-          /></picture>
-          <div class="title-wrap-our-yachts">
-            <div class="title-arrow-yachts">ARROW</div>
-            <div class="title-luxury-yachts">LUXURY YAHTS</div>
-          </div>
-          <div class="title-wrap-our-yachts">
-            <ul>
-              <li class="text-name_item">LENGTH</li>
-              <li class="text-name_item">BUILDER</li>
-              <li class="text-name_item">BUILT</li>
-              <li class="text-name_item">GUESTS</li>
-              <li class="text-name_item">PRICE</li>
-            </ul>
-            <ul>
-              <li class="text_item-our-yachts">48m(155ft)</li>
-              <li class="text_item-our-yachts">Admiral</li>
-              <li class="text_item-our-yachts">2021</li>
-              <li class="text_item-our-yachts">11 in 5 cabins</li>
-              <li class="text_item-our-yachts">€33, 500, 000</li>
-            </ul>
-          </div>
+  <div class="yachts-container">
+    <h2 class="our-yachts-title" data-aos="fade-up">
+      Choose your dream yacht and sail away into the sunset
+    </h2>
+    <div class="our-yachts-list">
+      <div class="our-yachts_cards" data-aos="flip-left">
+        <picture>
+          <source
+            srcset="
+              ./img/our-yachts/arrow.jpg    1x,
+              ./img/our-yachts/arrow@2x.jpg 2x
+            "
+            media="(min-width: 1440px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_desk1.jpg    1x,
+              ./img/our-yachts/img-yaht_desk1-2x.jpg 2x
+            "
+            media="(min-width: 1280px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_tab2.jpg    1x,
+              ./img/our-yachts/img-yaht_tab2-2x.jpg 2x
+            "
+            media="(min-width: 768px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_mob.jpg   1x,
+              ./img/our-yachts/img-yaht_mob2x.jpg 2x
+            "
+            media="(max-width: 767px)" />
+          <img
+            src="./img/our-yachts/arrow.jpg"
+            alt="Yacht ARROW"
+            width="360"
+            height="268"
+            class="img-our-yachts"
+            loading="lazy"
+        /></picture>
+        <div class="title-wrap-our-yachts">
+          <div class="title-arrow-yachts">ARROW</div>
+          <div class="title-luxury-yachts">LUXURY YAHTS</div>
         </div>
-        <div class="our-yachts_cards" data-aos="flip-left" data-aos-delay="300">
-          <picture>
-            <source
-              srcset="
-                ./img/our-yachts/benetti.jpg    1x,
-                ./img/our-yachts/benetti@2x.jpg 2x
-              "
-              media="(min-width: 1440px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_desk1-2.jpg    1x,
-                ./img/our-yachts/img-yaht_desk1-2-2x.jpg 2x
-              "
-              media="(min-width: 1280px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_tab1.jpg    1x,
-                ./img/our-yachts/img-yaht_tab1-2x.jpg 2x
-              "
-              media="(min-width: 768px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_tab1.jpg    1x,
-                ./img/our-yachts/img-yaht_tab1-2x.jpg 2x
-              "
-              media="(max-width: 767px)" />
-            <img
-              src="./img/our-yachts/benetti.jpg"
-              alt="BENETTI OASIS"
-              width="360"
-              height="268"
-              class="img-our-yachts"
-              loading="lazy"
-          /></picture>
-          <div class="title-wrap-our-yachts">
-            <div class="title-arrow-yachts title-hidden text_our-yacht">
-              BENETTI OASIS 40M BO122
-            </div>
-            <div class="title-luxury-yachts">LUXURY YAHTS</div>
-          </div>
-          <div class="title-wrap-our-yachts">
-            <ul>
-              <li class="text-name_item">LENGTH</li>
-              <li class="text-name_item">SHIPYARD</li>
-              <li class="text-name_item">BUILT</li>
-              <li class="text-name_item">GUESTS</li>
-              <li class="text-name_item">PRICE</li>
-            </ul>
-            <ul>
-              <li class="text_item-our-yachts">41m (133ft)</li>
-              <li class="text_item-our-yachts">Benetti</li>
-              <li class="text_item-our-yachts">2025</li>
-              <li class="text_item-our-yachts">10 in 5 cabins</li>
-              <li class="text_item-our-yachts">€23, 210, 000</li>
-            </ul>
-          </div>
-        </div>
-        <div class="our-yachts_cards" data-aos="flip-left" data-aos-delay="600">
-          <picture>
-            <source
-              srcset="
-                ./img/our-yachts/belle.jpg    1x,
-                ./img/our-yachts/belle@2x.jpg 2x
-              "
-              media="(min-width: 1440px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_desk1-3.jpg    1x,
-                ./img/our-yachts/img-yaht_desk1-3-2x.jpg 2x
-              "
-              media="(min-width: 1280px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_desk1-3.jpg    1x,
-                ./img/our-yachts/img-yaht_desk1-3-2x.jpg 2x
-              "
-              media="(min-width: 768px)" />
-            <source
-              srcset="
-                ./img/our-yachts/img-yaht_desk1-3.jpg    1x,
-                ./img/our-yachts/img-yaht_desk1-3-2x.jpg 2x
-              "
-              media="(max-width: 767px)" />
-            <img
-              src="./img/our-yachts/belle.jpg"
-              alt="BELLE ANNA"
-              width="360"
-              height="268"
-              class="img-our-yachts"
-              loading="lazy"
-          /></picture>
-          <div class="title-wrap-our-yachts">
-            <div class="title-arrow-yachts">BELLE ANNA</div>
-            <div class="title-luxury-yachts">LUXURY YAHTS</div>
-          </div>
-          <div class="title-wrap-our-yachts">
-            <ul>
-              <li class="text-name_item">LENGTH</li>
-              <li class="text-name_item">SHIPYARD</li>
-              <li class="text-name_item">BUILT</li>
-              <li class="text-name_item">GUESTS</li>
-              <li class="text-name_item">PRICE</li>
-            </ul>
-            <ul>
-              <li class="text_item-our-yachts">50m(155ft)</li>
-              <li class="text_item-our-yachts">ISA</li>
-              <li class="text_item-our-yachts">2012</li>
-              <li class="text_item-our-yachts">12 in 6 cabins</li>
-              <li class="text_item-our-yachts">€21, 000, 000</li>
-            </ul>
-          </div>
+        <div class="title-wrap-our-yachts">
+          <ul>
+            <li class="text-name_item">LENGTH</li>
+            <li class="text-name_item">BUILDER</li>
+            <li class="text-name_item">BUILT</li>
+            <li class="text-name_item">GUESTS</li>
+            <li class="text-name_item">PRICE</li>
+          </ul>
+          <ul>
+            <li class="text_item-our-yachts">48m(155ft)</li>
+            <li class="text_item-our-yachts">Admiral</li>
+            <li class="text_item-our-yachts">2021</li>
+            <li class="text_item-our-yachts">11 in 5 cabins</li>
+            <li class="text_item-our-yachts">€33, 500, 000</li>
+          </ul>
         </div>
       </div>
-      <a
-        href="#rent-yacht"
-        aria-label="Rent section"
-        class="our-yachts_button"
-        data-aos="fade-right"
-        >Yacht rental</a
-      >
+      <div class="our-yachts_cards" data-aos="flip-left" data-aos-delay="300">
+        <picture>
+          <source
+            srcset="
+              ./img/our-yachts/benetti.jpg    1x,
+              ./img/our-yachts/benetti@2x.jpg 2x
+            "
+            media="(min-width: 1440px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_desk1-2.jpg    1x,
+              ./img/our-yachts/img-yaht_desk1-2-2x.jpg 2x
+            "
+            media="(min-width: 1280px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_tab1.jpg    1x,
+              ./img/our-yachts/img-yaht_tab1-2x.jpg 2x
+            "
+            media="(min-width: 768px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_tab1.jpg    1x,
+              ./img/our-yachts/img-yaht_tab1-2x.jpg 2x
+            "
+            media="(max-width: 767px)" />
+          <img
+            src="./img/our-yachts/benetti.jpg"
+            alt="BENETTI OASIS"
+            width="360"
+            height="268"
+            class="img-our-yachts"
+            loading="lazy"
+        /></picture>
+        <div class="title-wrap-our-yachts">
+          <div class="title-arrow-yachts title-hidden text_our-yacht">
+            BENETTI OASIS 40M BO122
+          </div>
+          <div class="title-luxury-yachts">LUXURY YAHTS</div>
+        </div>
+        <div class="title-wrap-our-yachts">
+          <ul>
+            <li class="text-name_item">LENGTH</li>
+            <li class="text-name_item">SHIPYARD</li>
+            <li class="text-name_item">BUILT</li>
+            <li class="text-name_item">GUESTS</li>
+            <li class="text-name_item">PRICE</li>
+          </ul>
+          <ul>
+            <li class="text_item-our-yachts">41m (133ft)</li>
+            <li class="text_item-our-yachts">Benetti</li>
+            <li class="text_item-our-yachts">2025</li>
+            <li class="text_item-our-yachts">10 in 5 cabins</li>
+            <li class="text_item-our-yachts">€23, 210, 000</li>
+          </ul>
+        </div>
+      </div>
+      <div class="our-yachts_cards" data-aos="flip-left" data-aos-delay="600">
+        <picture>
+          <source
+            srcset="
+              ./img/our-yachts/belle.jpg    1x,
+              ./img/our-yachts/belle@2x.jpg 2x
+            "
+            media="(min-width: 1440px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_desk1-3.jpg    1x,
+              ./img/our-yachts/img-yaht_desk1-3-2x.jpg 2x
+            "
+            media="(min-width: 1280px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_desk1-3.jpg    1x,
+              ./img/our-yachts/img-yaht_desk1-3-2x.jpg 2x
+            "
+            media="(min-width: 768px)" />
+          <source
+            srcset="
+              ./img/our-yachts/img-yaht_desk1-3.jpg    1x,
+              ./img/our-yachts/img-yaht_desk1-3-2x.jpg 2x
+            "
+            media="(max-width: 767px)" />
+          <img
+            src="./img/our-yachts/belle.jpg"
+            alt="BELLE ANNA"
+            width="360"
+            height="268"
+            class="img-our-yachts"
+            loading="lazy"
+        /></picture>
+        <div class="title-wrap-our-yachts">
+          <div class="title-arrow-yachts">BELLE ANNA</div>
+          <div class="title-luxury-yachts">LUXURY YAHTS</div>
+        </div>
+        <div class="title-wrap-our-yachts">
+          <ul>
+            <li class="text-name_item">LENGTH</li>
+            <li class="text-name_item">SHIPYARD</li>
+            <li class="text-name_item">BUILT</li>
+            <li class="text-name_item">GUESTS</li>
+            <li class="text-name_item">PRICE</li>
+          </ul>
+          <ul>
+            <li class="text_item-our-yachts">50m(155ft)</li>
+            <li class="text_item-our-yachts">ISA</li>
+            <li class="text_item-our-yachts">2012</li>
+            <li class="text_item-our-yachts">12 in 6 cabins</li>
+            <li class="text_item-our-yachts">€21, 000, 000</li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </section>
+    <a
+      href="#rent-yacht"
+      aria-label="Rent section"
+      class="our-yachts_button"
+      data-aos="fade-right"
+      >Yacht rental</a
+    >
+  </div>
+</section>
 
       <section class="advantages">
     <div class="container">
