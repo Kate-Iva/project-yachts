@@ -55,7 +55,7 @@
     font-weight: 500;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    padding: 14px 32px;
+    padding: 12px 30px;
   }
   
   .hero-button:hover,
@@ -96,7 +96,7 @@
     }
   
     .hero-button {
-      padding: 16px 40px;
+      padding: 14px 38px;
       width: 179px;
       height: 52px;
       font-size: 18px;

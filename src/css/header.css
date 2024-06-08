@@ -129,10 +129,20 @@
 
 .menu-list-item:focus,
 .menu-list-item:active,
-.menu-list-item.active {
+.menu-list-item:hover {
   background-color: #1b414b;
 }
 
+.menu-list-item-mob {
+  background-color: #1b414b;
+  border-radius: 8px;
+}
+
+.menu-list-item-mob:focus,
+.menu-list-item-mob:active,
+.menu-list-item-mob:hover {
+  background-color: rgba(27, 65, 75, 0.5);
+}
 .menu-list-link {
   color: #FBFBFB;
   text-align: center;
@@ -231,15 +241,8 @@
   .tablet {
       display: block;
   }
-
-  .menu-social-icon-tab {
-      fill: #062730;
-  }
-
-  .menu-social-icon-tab:focus,
-  .menu-social-icon-tab:active,
-  .menu-social-icon-tab:hover {
-      fill: #1b414b96;
+  .header-menu {
+    display: none;
   }
 }
 
