@@ -101,6 +101,10 @@
       height: 52px;
       font-size: 18px;
       line-height: 1.1;
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
     }
   
     .hero-button:hover,

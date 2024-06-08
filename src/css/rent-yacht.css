@@ -68,7 +68,12 @@
     color: #fbfbfb;
     background-color: #1b414b;
 }
-
+.form-button-rent-bloc:hover,
+.form-button-rent-bloc:focus,
+.form-button-rent-bloc:active {
+    background-color: #fbfbfb;
+    color: #1b414b;;
+}
 .rent-bloc-photo {
     width: 100%;
     border-radius: 24px;

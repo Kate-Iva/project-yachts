@@ -156,6 +156,10 @@
   padding: 15px 0;
   border: none;
   height: 40px;
+  display: flex;
+  margin: 0 auto;
+align-items: center;
+justify-content: center;
 }
 
 .menu-social-list {
@@ -174,6 +178,13 @@
   fill: rgba(251, 251, 251, 0.8);
 }
 
+.menu-social-icon-tab {
+  fill: #1b414b;
+}
+.menu-social-icon-tab:hover,
+.menu-social-icon-tab:focus {
+  fill: #062730;
+}
 .tablet {
   display: none;
 }
@@ -257,13 +268,13 @@
       max-width: 1080px;
   }
 
-  .menu-list-item:hover {
+ /* .menu-list-item:hover {
       background-color: #1b414b;
   }
 
   .menu-social-icon:hover {
       fill: #062730;
-  }
+  }*/
 }
 
 @media screen and (min-width: 1440px) {
